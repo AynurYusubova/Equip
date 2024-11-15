@@ -1,0 +1,199 @@
+@media (min-width:0) and (max-width:567px){
+    #about {
+        margin-top: 3rem;
+        .about {
+            .img-box {
+                position: relative;
+                left: 15%;
+                img {
+                    height: 150px;
+                    width: 100%;
+                    object-fit: cover;
+                    border-radius: 6px;
+                    position: relative;
+                    &:nth-child(2) {
+                        top: 40%;
+                        left: 22%;
+                    }
+                }
+            }
+
+            .text {
+                font-family: Mulish;
+                position: relative;
+                p {
+                    position: absolute;
+                    color: #A3A3A3;
+                    top: -21rem;
+                    left: 30%;
+                }
+
+                h1 {
+                    font-size: 20px;
+                    font-weight: 700;
+
+                    p {
+                        position: absolute;
+                        color: #073A7D;
+                        top: -1px;
+                        left: 10rem;
+                    }
+                }
+
+                h5 {
+                    color: #525558;
+                    font-weight: 400;
+                    font-size: 16px;
+                    margin-bottom: 20px;
+                }
+
+                h3 {
+                    font-size: 16px;
+                    font-weight: 400;
+                    color: #525558;
+                    margin-bottom: 20px;
+
+                    i {
+                        color: #082E60;
+                        margin-right: 10px
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+@media (min-width:568px) and (max-width:991px){
+    #about {
+        margin-top: 3rem;
+        .about {
+            .img-box {
+                position: relative;
+                left: 15%;
+                img {
+                    height: 150px;
+                    width: 100%;
+                    object-fit: cover;
+                    border-radius: 6px;
+                    position: relative;
+                    &:nth-child(2) {
+                        top: 40%;
+                        left: 22%;
+                    }
+                }
+            }
+
+            .text {
+                font-family: Mulish;
+                position: relative;
+                p {
+                    position: absolute;
+                    color: #A3A3A3;
+                    top: -21rem;
+                    left: 30%;
+                }
+
+                h1 {
+                    font-size: 20px;
+                    font-weight: 700;
+
+                    p {
+                        position: absolute;
+                        color: #073A7D;
+                        top: -1px;
+                        left: 10rem;
+                    }
+                }
+
+                h5 {
+                    color: #525558;
+                    font-weight: 400;
+                    font-size: 16px;
+                    margin-bottom: 20px;
+                }
+
+                h3 {
+                    font-size: 16px;
+                    font-weight: 400;
+                    color: #525558;
+                    margin-bottom: 20px;
+
+                    i {
+                        color: #082E60;
+                        margin-right: 10px
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+@media (min-width:992px) {
+    #about {
+        .about {
+            display: flex;
+            flex-wrap: wrap;
+
+            .img-box {
+                img {
+                    height: 226px;
+                    width: 49%;
+                    object-fit: cover;
+                    border-radius: 6px;
+                    position: relative;
+
+                    &:nth-child(2) {
+                        top: 40%;
+                        right: 22%;
+                    }
+                }
+            }
+
+            .text {
+                font-family: Mulish;
+
+                p {
+                    color: #A3A3A3;
+                }
+
+                h1 {
+                    font-size: 40px;
+                    font-weight: 700;
+
+                    p {
+                        color: #073A7D;
+                    }
+                }
+
+                h5 {
+                    color: #525558;
+                    font-weight: 400;
+                    font-size: 16px;
+                    margin-bottom: 20px;
+                }
+
+                h3 {
+                    font-size: 16px;
+                    font-weight: 400;
+                    color: #525558;
+                    margin-bottom: 20px;
+
+                    i {
+                        color: #082E60;
+                        margin-right: 10px
+                    }
+                }
+            }
+        }
+    }
+}

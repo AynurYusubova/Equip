@@ -1,0 +1,132 @@
+@media (min-width:0) and (max-width:567px) {
+    #our {
+        background-color: #F8F8F8;
+
+        .boxs {
+            display: flex;
+            flex-wrap: wrap;
+
+            .text {
+                padding: 4rem 0;
+
+                h1 {
+                    margin-bottom: 10px;
+                }
+
+                p {
+                    color: #6d6a6a;
+                    font-size: 17px;
+                }
+            }
+
+            .icon {
+                display: none !important;
+            }
+        }
+    }
+}
+
+
+
+
+@media (min-width:568px) and (max-width:991px) {
+    #our {
+        background-color: #F8F8F8;
+
+        .boxs {
+            display: flex;
+            flex-wrap: wrap;
+
+            .text {
+                padding: 4rem 0;
+
+                h1 {
+                    margin-bottom: 10px;
+                }
+
+                p {
+                    color: #6d6a6a;
+                    font-size: 17px;
+                }
+            }
+
+            .icon {
+                display: none !important;
+            }
+        }
+    }
+}
+
+
+
+@media (min-width:992px) {
+    #our {
+        background-color: #F8F8F8;
+
+        .boxs {
+            display: flex;
+            flex-wrap: wrap;
+
+            .text {
+                padding: 4rem 0;
+
+                h1 {
+                    margin-bottom: 10px;
+                }
+
+                p {
+                    color: #6d6a6a;
+                    font-size: 17px;
+                }
+            }
+
+            .icon {
+                position: relative;
+                left: 4%;
+
+                i {
+                    color: #082E60;
+                    font-size: 24px;
+                    padding: 2rem 1rem;
+                }
+
+                p {
+                    position: relative;
+                    color: #082E60;
+                    font-weight: 600;
+                    font-size: 20px;
+                    padding: 15px 0;
+
+                    &:nth-child(2) {
+                        &::after {
+                            position: absolute;
+                            content: "";
+                            background-color: #082E60;
+                            width: 2px;
+                            height: 70px;
+                            right: -9px;
+                            bottom: 1%;
+                        }
+
+                    }
+
+                    &:nth-child(4) {
+                        &::after {
+                            position: absolute;
+                            content: "";
+                            background-color: #082E60;
+                            width: 2px;
+                            height: 70px;
+                            right: -9px;
+                            bottom: 1%;
+                        }
+                    }
+                }
+            }
+
+            .img-box {
+                padding: 4rem 0;
+            }
+        }
+    }
+}

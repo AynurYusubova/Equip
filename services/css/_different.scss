@@ -1,0 +1,127 @@
+@media (min-width:0) and (max-width:567px){
+    #different {
+        margin-top: 5rem ;
+        .text {
+            margin-bottom: 4rem;
+
+            h1 {
+                text-align: center;
+            }
+        }
+        .box {
+            margin-bottom: 4rem;
+            .top-box {
+                position: relative;
+                &::after {
+                    content: "";
+                    width: 20%;
+                    position: absolute;
+                    bottom: -57px;
+                    left: 3px;
+                    height: 2px;
+                    background-color: grey;
+                    transition: 0.5s;
+                }
+            }
+
+            h2 {
+                font-family: Mulish;
+                font-weight: 700;
+                font-size: 20px;
+                margin-top: 12px;
+            }
+        }
+    }
+}
+
+
+
+
+@media (min-width:568px) and (max-width:991px){
+    #different {
+        margin-top: 5rem ;
+        .text {
+            margin-bottom: 4rem;
+
+            h1 {
+                text-align: center;
+            }
+        }
+        .box {
+            margin-bottom: 4rem;
+            .top-box {
+                position: relative;
+                &::after {
+                    content: "";
+                    width: 20%;
+                    position: absolute;
+                    bottom: -57px;
+                    left: 3px;
+                    height: 2px;
+                    background-color: grey;
+                    transition: 0.5s;
+                }
+            }
+
+            h2 {
+                font-family: Mulish;
+                font-weight: 700;
+                font-size: 20px;
+                margin-top: 12px;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+@media (min-width:992px) {
+    #different {
+        margin: 5rem 0;
+
+        .text {
+            margin-bottom: 4rem;
+
+            h1 {
+                text-align: center;
+            }
+        }
+
+        .box {
+            margin-bottom: 4rem;
+
+            &:hover {
+                transform: scale(1.1);
+                transition: 0.6s;
+            }
+
+            .top-box {
+                position: relative;
+
+                &::after {
+                    content: "";
+                    width: 20%;
+                    position: absolute;
+                    bottom: -57px;
+                    left: 3px;
+                    height: 2px;
+                    background-color: grey;
+                    transition: 0.5s;
+                }
+            }
+
+            h2 {
+                font-family: Mulish;
+                font-weight: 700;
+                font-size: 20px;
+                margin-top: 12px;
+            }
+        }
+    }
+}

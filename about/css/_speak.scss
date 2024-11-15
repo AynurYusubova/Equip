@@ -1,0 +1,193 @@
+@media (min-width:0) and (max-width:567px){
+    #speak {
+        margin: 5rem 0;
+        position: relative;
+        .img-box {
+            position: relative;
+            img {
+                position: absolute;
+                top: -3rem;
+                left: 15rem;
+                z-index: 2;
+                border-radius: 6px;
+            }
+        }
+        .text-box {
+            background-color: #082E60;
+            height: 60vh;
+            width: 100%;
+            position: absolute;
+            color: white;
+
+            .text {
+                position: absolute;
+                top: 15%;
+                left: 2%;
+                font-family: Mulish;
+
+                p {
+                    padding: 0 38px;
+                    font-size: 20px;
+                    font-weight: 400;
+                    margin-bottom: 12px;
+                }
+
+                h1 {
+                    padding: 0 38px;
+                    font-size: 19px;
+                    font-weight: 700;
+                    margin-bottom: 16px;
+                }
+
+                h6 {
+                    padding: 0 38px;
+                    font-size: 20px;
+                    font-weight: 400;
+
+                }
+
+                .box-top {
+                    display: none !important;
+                }
+
+                .box-bottom {
+                    display: none !important;
+                }
+            }
+        }
+    }
+}
+
+
+
+@media (min-width:568px) and (max-width:991px){
+    #speak {
+        margin: 5rem 0;
+        position: relative;
+        .img-box {
+            position: relative;
+            img {
+                position: absolute;
+                top: -5rem;
+                left: 20rem;
+                z-index: 2;
+                border-radius: 6px;
+            }
+        }
+        .text-box {
+            background-color: #082E60;
+            height: 60vh;
+            width: 100%;
+            position: absolute;
+            color: white;
+
+            .text {
+                position: absolute;
+                top: 15%;
+                left: 2%;
+                font-family: Mulish;
+
+                p {
+                    padding: 0 38px;
+                    font-size: 20px;
+                    font-weight: 400;
+                    margin-bottom: 12px;
+                }
+
+                h1 {
+                    padding: 0 38px;
+                    font-size: 19px;
+                    font-weight: 700;
+                    margin-bottom: 16px;
+                }
+
+                h6 {
+                    padding: 0 38px;
+                    font-size: 18px;
+                    font-weight: 400;
+
+                }
+
+                .box-top {
+                    display: none !important;
+                }
+
+                .box-bottom {
+                    display: none !important;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+@media (min-width:992px) {
+    #speak {
+        height: 100vh;
+        .img-box {
+            position: relative;
+            img {
+                position: absolute;
+                top: -20px;
+                left: 100%;
+                z-index: 2;
+                border-radius: 6px;
+            }
+        }
+
+        .text-box {
+            background-color: #082E60;
+            height: 78vh;
+            width: 56%;
+            position: absolute;
+            // right: 0%;
+            color: white;
+
+            .text {
+                position: absolute;
+                top: 15%;
+                left: 4%;
+                font-family: Mulish;
+
+                p {
+                    padding: 0 38px;
+                    font-size: 20px;
+                    font-weight: 400;
+                    margin-bottom: 12px;
+                }
+
+                h1 {
+                    padding: 0 38px;
+                    font-size: 38px;
+                    font-weight: 700;
+                    margin-bottom: 16px;
+                }
+
+                h6 {
+                    padding: 0 38px;
+                    font-size: 12px;
+                    font-weight: 500;
+                    margin-bottom: 26px;
+                    letter-spacing: 1.5px;
+
+                }
+
+                .box-top {
+                    h1 {
+                        padding: 0 35px;
+                    }
+                }
+
+                .box-bottom {
+                    h5 {
+                        padding: 0 35px;
+                        font-size: 21px;
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
+    }
+}

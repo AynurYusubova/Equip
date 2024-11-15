@@ -1,0 +1,94 @@
+@media (min-width:0) and (max-width:567px){
+    #collo{
+        margin-bottom: 2rem;
+        .text{
+            text-align: center;
+            font-family: Mulish;
+            font-weight: 500;
+            font-size: 30px;
+           color:#A3A3A3;
+           margin-top: 2rem;
+        }
+        .logo{
+            img{
+                filter: grayscale(100%);
+                transition:0.5s;
+                position: relative;
+                left: 60px;
+                &:hover{
+                    filter: brightness(100%);
+                }
+                &:nth-child(4){
+                    display: none !important;
+                }
+                &:nth-child(5){
+                    display: none !important;
+                }
+                &:nth-child(6){
+                    display: none !important;
+                }
+            }
+        }
+    }
+}
+
+
+
+@media (min-width:568px) and (max-width:991px){
+    #collo{
+        margin-bottom: 2rem;
+        .text{
+            text-align: center;
+            font-family: Mulish;
+            font-weight: 500;
+            font-size: 30px;
+           color:#A3A3A3;
+           margin-top: 2rem;
+        }
+        .logo{
+            img{
+                filter: grayscale(100%);
+                transition:0.5s;
+                position: relative;
+                left: 60px;
+                &:hover{
+                    filter: brightness(100%);
+                }
+                &:nth-child(4){
+                    display: none !important;
+                }
+                &:nth-child(5){
+                    display: none !important;
+                }
+                &:nth-child(6){
+                    display: none !important;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+@media (min-width:992px){
+    #collo{
+        margin-bottom: 3rem;
+        .text{
+            text-align: center;
+            font-family: Mulish;
+            font-weight: 500;
+            font-size: 30px;
+           color:#A3A3A3;
+        }
+        .logo{
+            img{
+                filter: grayscale(100%);
+                transition:0.5s;
+                &:hover{
+                    filter: brightness(100%);
+                }
+            }
+        }
+    }
+}
